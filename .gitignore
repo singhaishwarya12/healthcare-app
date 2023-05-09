@@ -1,0 +1,19 @@
+*.pyc
+__pycache__/
+**/__pycache__/
+
+# Django files
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# IDE files
+.vscode/
+*.idea/
+
+# Django migrations
+**/migrations/
