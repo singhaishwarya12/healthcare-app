@@ -12,5 +12,5 @@ class PatientAdmin(admin.ModelAdmin):
 
 admin.site.register(patient, PatientAdmin)
 class FeedbackAdmin(admin.ModelAdmin):
-    list_display=('id','rating','comment')
+    list_display=('rating','comment')
 admin.site.register(Feedback, FeedbackAdmin)
